@@ -21,7 +21,7 @@ export default function InstaFeed() {
         data-instgrm-permalink="https://www.instagram.com/wineandfine_belgrade/"
         data-instgrm-version="14"
         style={{
-          background: '#FFF',
+          
           border: '0',
           borderRadius: '3px',
           boxShadow: '0 0 1px rgba(0,0,0,0.5),0 1px 10px rgba(0,0,0,0.15)',
@@ -30,7 +30,7 @@ export default function InstaFeed() {
           minWidth: '326px',
           padding: '0',
           width: 'calc(100% - 2px)',
-          height: '600px',
+          height: '500px',
         }}
       >
         <a

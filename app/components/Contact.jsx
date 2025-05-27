@@ -60,7 +60,7 @@ export default function Contact() {
         {/* Contact Form */}
         <form
           onSubmit={handleSubmit}
-          className='bg-white/5 backdrop-blur-md p-8 rounded-2xl w-full space-y-6 border border-white/10 text-white font-serif'
+          className='bg-white/5 backdrop-blur-md p-8 rounded-2xl w-full space-y-6  text-white font-serif'
         >
           <h2 className='text-3xl text-center mb-4'>Kontaktirajte Nas</h2>
 
