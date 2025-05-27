@@ -11,7 +11,7 @@ export default function About() {
 
       {/* Section 1 */}
       <div className="flex flex-col md:flex-row items-center gap-10">
-        <div className="md:w-1/2 text-white text-lg md:text-xl font-serif leading-relaxed">
+        <div className="md:w-1/2 text-white text-lg md:text-xl xl:text-3xl font-serif leading-relaxed">
           <p>
             U srcu Vračara, Wine & Fine je mesto gde vino postaje priča, a svaki gutljaj vodi na putovanje kroz vinograde sveta. 
             Naša pažljivo odabrana kolekcija obuhvata poznate svetske etikete, ali i skrivene dragulje lokalnih vinara.
@@ -31,7 +31,7 @@ export default function About() {
 
       {/* Section 2 */}
       <div className="flex flex-col md:flex-row-reverse items-center gap-10">
-        <div className="md:w-1/2 text-white text-lg md:text-xl font-serif leading-relaxed">
+        <div className="md:w-1/2 text-white text-lg md:text-xl xl:text-3xl font-serif leading-relaxed">
           <p>
             U prijatnoj i toploj atmosferi našeg kafića, uživanje u vinu postaje trenutak za sećanje, bilo da ste u društvu prijatelja ili sami sa omiljenom čašom.
           </p>
@@ -50,7 +50,7 @@ export default function About() {
 
       {/* Section 3 */}
       <div className="flex flex-col md:flex-row items-center gap-10">
-        <div className="md:w-1/2 text-white text-lg md:text-xl font-serif leading-relaxed">
+        <div className="md:w-1/2 text-white text-lg md:text-xl xl:text-3xl font-serif leading-relaxed">
           <p>
             Naš tim posvećenih somelijera rado će vam pomoći da otkrijete nove ukuse i naučite više o svetu vina, jer verujemo da je svaka boca prilika za slavlje.
           </p>

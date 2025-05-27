@@ -47,7 +47,7 @@ export default function Gallery() {
                 sizes='(max-width: 640px) 50vw, (max-width: 768px) 33vw, 25vw'
                 className='object-cover'
                 priority={i < 3}
-                loading="lazy"
+                
               />
             </div>
           ))}
