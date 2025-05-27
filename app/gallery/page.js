@@ -2,12 +2,12 @@ import Image from 'next/image'
 import React from 'react'
 
 const images = [
-  { src: '/images/gallery1.jpg', alt: 'Wine bottles on wooden shelves' },
-  { src: '/images/gallery2.jpg', alt: 'Elegant wine glasses on table' },
-  { src: '/images/gallery3.jpg', alt: 'Cozy café interior with ambient lighting' },
-  { src: '/images/gallery4.jpg', alt: 'Pouring red wine into a glass' },
-  { src: '/images/gallery5.jpg', alt: 'Wine tasting event at Vino Café' },
-  { src: '/images/gallery6.jpg', alt: 'Close-up of a wine bottle and cork' },
+  { src: '/images/img1.jpg', alt: 'Wine bottles on wooden shelves' },
+  { src: '/images/img2.jpg', alt: 'Elegant wine glasses on table' },
+  { src: '/images/img3.jpg', alt: 'Cozy café interior with ambient lighting' },
+  { src: '/images/img4.jpg', alt: 'Pouring red wine into a glass' },
+  { src: '/images/img1.jpg', alt: 'Wine tasting event at Vino Café' },
+  { src: '/images/img2.jpg', alt: 'Close-up of a wine bottle and cork' },
 ]
 
 export default function Gallery() {
