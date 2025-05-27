@@ -25,8 +25,9 @@ export default function Contact() {
         className='absolute top-0 left-0 w-full h-full object-cover'
         alt='Vas Kutak za Vračaru'
         fill
-        priority
+        
         quality={100}
+        loading="lazy"
       />
 
       {/* Dark overlay */}
@@ -51,9 +52,9 @@ export default function Contact() {
 
         <div className="text-white text-center mt-8 font-serif">
   <h3 className="text-2xl mb-2">Radno vreme</h3>
-  <p>Pon - Čet: 16:00 - 23:00</p>
-  <p>Pet - Sub: 16:00 - 01:00</p>
-  <p>Nedelja: Zatvoreno</p>
+  <p>Pon - Čet: 08:00 - 00:00</p>
+  <p>Pet - Sub: 08:00 - 01:00</p>
+  <p>Nedelja: 08:00 - 00:00</p>
 </div>
 
 

@@ -38,6 +38,7 @@ export default function Gallery() {
               key={i}
               className='relative w-full aspect-square rounded-lg overflow-hidden shadow-lg hover:scale-105 transition-transform duration-300 cursor-pointer'
               onClick={() => openModal(i)}
+              loading="lazy"
             >
               <Image
                 src={src}
@@ -46,6 +47,7 @@ export default function Gallery() {
                 sizes='(max-width: 640px) 50vw, (max-width: 768px) 33vw, 25vw'
                 className='object-cover'
                 priority={i < 3}
+                loading="lazy"
               />
             </div>
           ))}

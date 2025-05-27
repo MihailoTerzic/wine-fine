@@ -23,6 +23,7 @@ export default function About() {
       width={800}
       height={600}
       className='p-10'
+      loading="lazy"
       />
 
       <p className='z-10 relative mt-4 text-white max-w-3xl text-lg md:text-xl leading-relaxed font-serif'>
@@ -35,6 +36,7 @@ export default function About() {
       width={800}
       height={600}
       className='p-10'
+      loading="lazy"
       />
 
       <p className='z-10 relative mt-4 text-white max-w-3xl text-lg md:text-xl leading-relaxed font-serif'>

@@ -17,6 +17,7 @@ export default function InstaFeed() {
   return (
     <div style={{ width: '600px', maxWidth: '100%' }}>
       <blockquote
+      loading="lazy"
         className="instagram-media"
         data-instgrm-permalink="https://www.instagram.com/wineandfine_belgrade/"
         data-instgrm-version="14"
