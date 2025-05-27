@@ -1,6 +1,7 @@
 'use client'
 import Image from 'next/image'
 import React, { useState } from 'react'
+import InstaFeed from './InstaFeed'
 
 export default function Contact() {
   const [formData, setFormData] = useState({ name: '', email: '', message: '' })
@@ -47,6 +48,14 @@ export default function Contact() {
             referrerPolicy="no-referrer-when-downgrade"
           ></iframe>
         </div>
+
+        <div className="text-white text-center mt-8 font-serif">
+  <h3 className="text-2xl mb-2">Radno vreme</h3>
+  <p>Pon - Čet: 16:00 - 23:00</p>
+  <p>Pet - Sub: 16:00 - 01:00</p>
+  <p>Nedelja: Zatvoreno</p>
+</div>
+
 
         {/* Contact Form */}
         <form

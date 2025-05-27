@@ -1,5 +1,6 @@
 import Image from 'next/image'
 import React from 'react'
+import InstaFeed from './InstaFeed'
 
 export default function About() {
   return (
@@ -40,13 +41,7 @@ export default function About() {
         Naš tim posvećenih somelijera rado će vam pomoći da otkrijete nove ukuse i naučite više o svetu vina, jer verujemo da je svaka boca prilika za slavlje.
       </p>
 
-        <Image
-      src={'/images/img4.jpg'} // replace with your image path
-      alt='Wine selection'
-      width={800}
-      height={600}
-      className='p-10'
-      />
+     <InstaFeed></InstaFeed>
 
       <p className='z-10 relative mt-8 text-white font-serif italic max-w-3xl text-2xl text-center pb-5'>
         Pridružite nam se i doživite vino na potpuno nov način
