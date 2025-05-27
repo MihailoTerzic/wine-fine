@@ -5,7 +5,7 @@ export default function Hero() {
      <section id="home" className="relative h-screen w-full">
       {/* Background video */}
       <video
-        className="absolute top-0 left-0 w-full h-dvh object-cover"
+        className="absolute top-0 left-0 w-full h-svh object-cover"
         autoPlay
         muted
         loop
