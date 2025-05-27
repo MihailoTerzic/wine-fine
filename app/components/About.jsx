@@ -3,7 +3,7 @@ import React from 'react'
 
 export default function About() {
   return (
-    <section id='about' className='relative  w-full bg-black flex flex-col justify-center px-6 md:px-20 pt-20'>
+    <section id='about' className='relative  w-full bg-black flex flex-col justify-center items-center gap-5 px-6 md:px-20 pt-20'>
       {/* Optional: Background image darkened */}
     
 
@@ -48,8 +48,8 @@ export default function About() {
       className='p-10'
       />
 
-      <p className='z-10 relative mt-8 text-white font-serif italic max-w-3xl'>
-        Pridružite nam se i doživite vino na potpuno nov način — sa srcem i strasti.
+      <p className='z-10 relative mt-8 text-white font-serif italic max-w-3xl text-2xl text-center pb-5'>
+        Pridružite nam se i doživite vino na potpuno nov način
       </p>
     </section>
   )

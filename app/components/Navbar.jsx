@@ -20,18 +20,10 @@ export default function Navbar() {
 
       {/* Desktop Menu */}
       <ul className="hidden md:flex space-x-8 text-lg font-serif">
-        {['home', 'about', 'contact'].map((section) => (
-          <li key={section}>
-            <a href={`/#${section}`} className="hover:underline capitalize">
-              {section}
-            </a>
-          </li>
-        ))}
-        <li>
-          <a href="/gallery" className="hover:underline capitalize">
-            Gallery
-          </a>
-        </li>
+        <li><a href="/#home" className="hover:underline capitalize">Početna</a></li>
+        <li><a href="/#about" className="hover:underline capitalize">O Nama</a></li>
+        <li><a href="/#contact" className="hover:underline capitalize">Kontakt</a></li>
+        <li><a href="/gallery" className="hover:underline capitalize">Galerija</a></li>
       </ul>
 
       {/* Mobile Menu Overlay */}
@@ -40,23 +32,10 @@ export default function Navbar() {
           menuOpen ? 'translate-x-0' : 'translate-x-full'
         } md:hidden`}
       >
-        {['home', 'about', 'contact'].map((section) => (
-          <a
-            key={section}
-            href={`/#${section}`}
-            onClick={handleLinkClick}
-            className="capitalize"
-          >
-            {section}
-          </a>
-        ))}
-        <a
-          href="/gallery"
-          onClick={handleLinkClick}
-          className="capitalize"
-        >
-          Gallery
-        </a>
+        <a href="/#home" onClick={handleLinkClick} className="capitalize">Početna</a>
+        <a href="/#about" onClick={handleLinkClick} className="capitalize">O Nama</a>
+        <a href="/#contact" onClick={handleLinkClick} className="capitalize">Kontakt</a>
+        <a href="/gallery" onClick={handleLinkClick} className="capitalize">Galerija</a>
       </div>
     </nav>
   )
