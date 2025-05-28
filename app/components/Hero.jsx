@@ -19,7 +19,7 @@ export default function Hero() {
       <div className="absolute top-0 left-0 w-full h-full bg-black/50" />
 
       {/* Content */}
-      <div className="relative z-10 flex flex-col items-start justify-end md:pl-20  h-[80%] md:h-full text-white px-4 font-serif">
+      <div className="relative z-10 flex flex-col items-start justify-end md:pl-20  h-[90%] md:h-full text-white px-4 font-serif">
         <h1 className="text-8xl md:text-9xl mb-8 leading-none">
   <div>Wine</div>
   <div>& Fine</div>
