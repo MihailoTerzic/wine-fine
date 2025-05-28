@@ -38,7 +38,7 @@ export default function About() {
         </div>
         <div className="md:w-1/2">
           <Image
-            src="/images/img3.jpg"
+            src="/images/real/img4.jpeg"
             alt="Wine and ambiance"
             width={800}
             height={600}

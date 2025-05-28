@@ -3,12 +3,15 @@ import Image from 'next/image'
 import React, { useState } from 'react'
 
 const images = [
-  { src: '/images/img1.jpg', alt: 'Wine bottles on wooden shelves' },
-  { src: '/images/img2.jpg', alt: 'Elegant wine glasses on table' },
-  { src: '/images/img3.jpg', alt: 'Cozy café interior with ambient lighting' },
-  { src: '/images/img4.jpg', alt: 'Pouring red wine into a glass' },
-  { src: '/images/img1.jpg', alt: 'Wine tasting event at Vino Café' },
-  { src: '/images/img2.jpg', alt: 'Close-up of a wine bottle and cork' },
+  { src: '/images/real/img1.jpeg', alt: 'Wine bottles on wooden shelves' },
+  { src: '/images/real/img2.jpeg', alt: 'Elegant wine glasses on table' },
+  { src: '/images/real/img3.jpeg', alt: 'Cozy café interior with ambient lighting' },
+  { src: '/images/real/img4.jpeg', alt: 'Pouring red wine into a glass' },
+  { src: '/images/real/img5.jpeg', alt: 'Wine tasting event at Vino Café' },
+  { src: '/images/real/img6.jpeg', alt: 'Close-up of a wine bottle and cork' },
+  { src: '/images/real/img7.jpeg', alt: 'Close-up of a wine bottle and cork' },
+  { src: '/images/real/img8.jpeg', alt: 'Close-up of a wine bottle and cork' },
+  { src: '/images/real/img9.jpeg', alt: 'Close-up of a wine bottle and cork' },
 ]
 
 export default function Gallery() {
