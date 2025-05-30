@@ -1,6 +1,7 @@
 'use client'
 import Image from 'next/image'
 import React, { useState } from 'react'
+import emailjs from '@emailjs/browser'
 import InstaFeed from './InstaFeed'
 
 export default function Contact() {
@@ -10,12 +11,30 @@ export default function Contact() {
     setFormData({ ...formData, [e.target.name]: e.target.value })
   }
 
-  const handleSubmit = (e) => {
-    e.preventDefault()
-    // Integrate with EmailJS or similar
-    alert('Message sent!')
+const handleSubmit = async (e) => {
+  e.preventDefault()
+
+  try {
+    const result = await emailjs.send(
+      process.env.NEXT_PUBLIC_EMAILJS_SERVICE_ID,
+      process.env.NEXT_PUBLIC_EMAILJS_TEMPLATE_ID,
+      {
+        name: formData.name,
+        email: formData.email,
+        message: formData.message,
+      },
+      process.env.NEXT_PUBLIC_EMAILJS_PUBLIC_KEY
+    )
+    
+    console.log('Email successfully sent:', result.text)
+    alert('Poruka je uspešno poslata!')
     setFormData({ name: '', email: '', message: '' })
+
+  } catch (error) {
+    console.error('Email send error:', error)
+    alert('Došlo je do greške pri slanju poruke. Pokušajte ponovo.')
   }
+}
 
   return (
     <section id='contact' className='relative w-full min-h-screen bg-black'>
