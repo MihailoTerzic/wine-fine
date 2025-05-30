@@ -12,6 +12,11 @@ const images = [
   { src: '/images/real/img7.jpeg', alt: 'Wine & Fine frape' },
   { src: '/images/real/img8.jpeg', alt: 'Wine & Fine meze' },
   { src: '/images/real/img9.jpeg', alt: 'Wine & Fine znak' },
+  { src: '/images/real/img10.jpeg', alt: 'Wine & Fine ' },
+  { src: '/images/real/img11.jpeg', alt: 'Wine & Fine ' },
+  { src: '/images/real/img12.jpeg', alt: 'Wine & Fine ' },
+  { src: '/images/real/img13.jpeg', alt: 'Wine & Fine ' },
+  { src: '/images/real/img14.jpeg', alt: 'Wine & Fine ' },
 ]
 
 export default function Gallery() {
