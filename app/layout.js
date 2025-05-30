@@ -7,9 +7,12 @@ import { Analytics } from "@vercel/analytics/next"
 
 
 export const metadata = {
-  title: "Wine & Fine",
+  title: {
+    default: "Wine & Fine",
+    template: "%s | Wine & Fine",
+  },
   keywords: ["wine", "beograd izlasci", "izlazak", "vracar", "vino"],
-  description: "Wine & Fine - Vracarska vinarija i bar"
+  description: "Wine & Fine - Vino bar na Vračaru",
 };
 
 export default function RootLayout({ children }) {
