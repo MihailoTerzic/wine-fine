@@ -75,7 +75,7 @@ export default function Contact() {
           <h3 className="text-2xl mb-2">Radno vreme</h3>
           <p>Pon - Čet: 08:00 - 00:00</p>
           <p>Pet - Sub: 08:00 - 01:00</p>
-          <p>Nedelja: 08:00 - 00:00</p>
+          <p>Nedelja: Zatvoreno</p>
         </div>
 
         {/* Contact Form */}
