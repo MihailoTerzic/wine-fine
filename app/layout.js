@@ -8,11 +8,24 @@ import { Analytics } from "@vercel/analytics/next"
 
 export const metadata = {
   title: {
-    default: "Wine & Fine",
+    default: "Wine & Fine | Vino na Vračaru",
     template: "%s | Wine & Fine",
   },
-  keywords: ["wine", "beograd izlasci", "izlazak", "vracar", "vino"],
-  description: "Wine & Fine - Vino bar na Vračaru",
+    keywords: [
+    "vino vracar", 
+    "degustacija vina vracar", 
+    "vino beograd",
+    "wine bar beograd",
+    "wine bar beograd vracar",
+    "wine bar vracar", 
+    "degustacija vina beograd", 
+    "vino izlazak beograd", 
+    "wine fine vracar",
+    "wine and fine vracar",
+    "wine and fine beograd",
+    "wine and fine",
+  ],
+  description: "Uživajte u vrhunskim vinima u srcu Vračara. Idealno mesto za izlaske u Beogradu, degustacije vina i opuštanje sa prijateljima.",
 };
 
 export default function RootLayout({ children }) {
