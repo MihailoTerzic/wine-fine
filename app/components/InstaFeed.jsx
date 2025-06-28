@@ -15,7 +15,7 @@ export default function InstaFeed() {
   }, [])
 
   return (
-    <div style={{ width: '600px', maxWidth: '100%' }}>
+    <div className='px-6' style={{ width: '600px', maxWidth: '100%' }}>
       <blockquote
       loading="lazy"
         className="instagram-media"
