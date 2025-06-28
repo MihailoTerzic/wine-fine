@@ -43,7 +43,7 @@ export default function About() {
       </div>
 
       {/* Section 2 */}
-      <div className="flex flex-col md:flex-row-reverse items-center gap-10 py-26 max-w-7xl mx-auto px-6">
+      <div className="flex flex-col md:flex-row-reverse items-center gap-10 pt-26 max-w-7xl mx-auto px-6">
         <div className="md:w-1/2 text-white text-lg  font-serif leading-relaxed">
           <h2 className="mb-4 text-3xl">
             Uživanje u vrhunskim vinima u prijatnoj atmosferi
@@ -62,7 +62,7 @@ export default function About() {
           </button>
  
         </div>
-        <div className="md:w-1/2 pt-26">
+        <div className="md:w-1/2 pb-26">
           <Image
             src="/images/real/img4.jpeg"
             alt="Topla i prijatna atmosfera vinskog bara Wine & Fine na Vračaru"
@@ -104,14 +104,9 @@ export default function About() {
 
 
       {/* Instagram Feed */}
-      <InstaFeed />
+      
 
-      {/* Final CTA */}
-      <div className="text-white rounded-2xl px-8 py-6 text-center shadow-lg">
-        <h3 className="text-4xl font-serif">
-          Pridružite nam se i doživite vino na potpuno nov način!
-        </h3>
-      </div>
+     
     </section>
   )
 }

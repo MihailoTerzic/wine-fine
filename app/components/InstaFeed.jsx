@@ -15,7 +15,7 @@ export default function InstaFeed() {
   }, [])
 
   return (
-    <div className='px-6' style={{ width: '600px', maxWidth: '100%' }}>
+    <div className='px-6 mx-auto' style={{ width: '600px', maxWidth: '100%' }}>
       <blockquote
       loading="lazy"
         className="instagram-media"
@@ -51,7 +51,12 @@ export default function InstaFeed() {
         </a>
       </blockquote>
      
-      
+       {/* Final CTA */}
+      <div className="text-white rounded-2xl px-8 pt-6 pb-26 text-center shadow-lg">
+        <h3 className="text-3xl font-serif">
+          Pridružite nam se i doživite vino na potpuno nov način!
+        </h3>
+      </div>
     </div>
   )
 }
