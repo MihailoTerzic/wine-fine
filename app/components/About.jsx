@@ -9,8 +9,8 @@ export default function About() {
       className="relative bg-black flex flex-col items-center py-16 lg:py-24 gap-20 w-full"
     >
       {/* Section 1 */}
-      <div className="flex flex-col lg:flex-row items-center gap-12 w-full max-w-[90rem] mx-auto px-4 sm:px-8">
-        <div className="w-full lg:w-1/2 text-white text-lg md:text-xl font-serif leading-relaxed">
+      <div className="flex flex-col items-start gap-12 w-full max-w-[90rem] mx-auto px-4 sm:px-8">
+        <div className="w-full lg:w-1/2 lg:pb-12 text-white text-md md:text-lg font-thin leading-relaxed">
           <h1 className="mb-8 text-3xl lg:text-4xl">
             Vaš Kutak za Vino na Vračaru 
           </h1>
@@ -19,7 +19,7 @@ export default function About() {
             Svaki gutljaj vodi vas na putovanje kroz najbolje vinograde sveta i otkriva raznovrsne ukuse kako poznatih svetskih etiketa.
           </p>
           
-          <button className="text-white hover:text-black bg-transparent border border-white hover:bg-white/80 mt-6 font-serif px-6 py-3 transition-all duration-300">
+          <button className="text-white text-sm md:text-md  hover:text-black bg-transparent border border-white hover:bg-white/80 mt-6 font-serif px-6 py-3 transition-all duration-300">
             <a
               href="https://simplebooklet.com/winefine#page=1"
               className="text-white font-serif"
@@ -66,13 +66,14 @@ export default function About() {
   </div>
 </div>
 
-        <div className="w-full hidden lg:block lg:w-1/2">
+        <div className="w-full hidden lg:block lg:w-3/4 relative left-20  self-end">
           <Image
             src="/images/real/img5.jpeg"
             alt="Vinski bar Wine & Fine na Vračaru"
-            width={800}
+            width={1000}
             height={600}
-            className="rounded-md shadow-lg w-full"
+            
+            className=" shadow-lg w-full"
             loading="lazy"
           />
 
@@ -80,18 +81,18 @@ export default function About() {
       </div>
 
       {/* Section 2 */}
-      <div className="flex flex-col-reverse md:flex-row-reverse items-center gap-12 w-full max-w-[90rem] mx-auto px-4 sm:px-8">
-        <div className="w-full md:w-1/2 text-white text-lg font-serif leading-relaxed">
+      <div className="flex flex-col-reverse md:flex-row-reverse lg:pt-12 gap-12 w-full max-w-[90rem] mx-auto px-4 sm:px-8">
+        <div className="w-full md:w-1/2 text-white lg:text-end self-center  text-md lg:text-lg font-thin font-serif leading-relaxed">
           <h2 className="mb-6 text-3xl lg:text-4xl">
             Uživanje u vrhunskim vinima u prijatnoj atmosferi
           </h2>
           <p>
             Posetite nas i uživajte u bogatoj ponudi crvenih, belih i roze vina u opuštenoj atmosferi. Bilo da ste strastveni poznavalac vina ili tek otkrivate svet vinskih aroma, kod nas ćete pronaći idealno vino za svaku priliku.
           </p>
-          <button className="text-white bg-transparent border border-white hover:bg-white/80 mt-6 font-serif px-6 py-3 transition-all duration-300">
+          <button className="text-white text-sm lg:text-md bg-transparent border border-white hover:bg-white/80 mt-6 font-serif px-6 py-3 transition-all duration-300">
             <a
               href="/#contact"
-              className="text-white font-serif"
+              className="text-white "
               aria-label="Galerija - Wine & Fine"
             >
               Rezervišite svoj sto
@@ -104,7 +105,7 @@ export default function About() {
             alt="Topla i prijatna atmosfera vinskog bara Wine & Fine na Vračaru"
             width={800}
             height={600}
-            className="rounded-md shadow-lg w-full"
+            className=" shadow-lg w-full"
             loading="lazy"
           />
         </div>
