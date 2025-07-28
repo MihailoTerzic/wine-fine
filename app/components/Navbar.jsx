@@ -8,7 +8,7 @@ export default function Navbar() {
   const handleLinkClick = () => setMenuOpen(false)
 
   return (
-    <nav className="fixed top-0 right-5 md:right-10 xl:right-50 z-50 text-end py-3 flex justify-end items-center bg-transparent text-white">
+    <nav className="fixed top-0 right-5 md:right-10  z-50 text-end py-3 flex justify-end items-center bg-transparent text-white">
       {/* Hamburger Icon */}
       <button
         className="md:hidden z-50 text-4xl"
