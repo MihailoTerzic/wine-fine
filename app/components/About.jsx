@@ -6,107 +6,111 @@ export default function About() {
   return (
     <section
       id="about"
-      className="relative bg-black flex flex-col items-center py-26 gap-16"
+      className="relative bg-black flex flex-col items-center py-16 lg:py-24 gap-20 w-full"
     >
-     
       {/* Section 1 */}
-      <div className="flex flex-col md:flex-row items-center gap-10  max-w-7xl mx-auto px-6">
-        <div className="md:w-1/2 text-white text-lg md:text-xl  font-serif leading-relaxed">
-          <h1 className="mb-12 text-3xl">
+      <div className="flex flex-col lg:flex-row items-center gap-12 w-full max-w-[90rem] mx-auto px-4 sm:px-8">
+        <div className="w-full lg:w-1/2 text-white text-lg md:text-xl font-serif leading-relaxed">
+          <h1 className="mb-8 text-3xl lg:text-4xl">
             Vaš Kutak za Vino na Vračaru 
           </h1>
-          <p className=''>
-            U srcu Vračara,Wine & Fine vinski bar u Beogradu je mesto gde vino priča svoju jedinstvenu priču. 
-            Svaki gutljaj vodi vas na putovanje kroz najbolje vinograde sveta i otkriva raznovrsne ukuse kako poznatih svetskih etiketa
+          <p>
+            U srcu Vračara, Wine & Fine vinski bar u Beogradu je mesto gde vino priča svoju jedinstvenu priču. 
+            Svaki gutljaj vodi vas na putovanje kroz najbolje vinograde sveta i otkriva raznovrsne ukuse kako poznatih svetskih etiketa.
           </p>
           
-                <button className='"text-black bg-white/50 hover:bg-white/80 mt-5 font-serif px-6 py-3 rounded-full lg:border-transparent hover:border-yellow-400 transition-all duration-300'>
-   <a
-  href="https://simplebooklet.com/winefine#page=1"
- className='text-black font-serif'
-  aria-label="Meni - Wine & Fine"
->
-  Naša ponuda vina
-</a>
+          <button className="text-white hover:text-black bg-transparent border border-white hover:bg-white/80 mt-6 font-serif px-6 py-3 transition-all duration-300">
+            <a
+              href="https://simplebooklet.com/winefine#page=1"
+              className="text-white font-serif"
+              aria-label="Meni - Wine & Fine"
+            >
+              Naša ponuda vina
+            </a>
           </button>
         </div>
-        <div className="md:w-1/2">
+
+        {/* Working hours block */}
+      <div className="w-full block lg:hidden lg:w-1/2 px-2 mt-10 lg:mt-0">
+  <div className="text-white w-full">
+    {/* Header */}
+    <h3 className="text-2xl font-serif mb-6 border-b border-white/60 pb-2">
+      Radno Vreme
+    </h3>
+
+    <div className="space-y-4 text-base md:text-lg mb-4">
+      <div className="flex justify-between border-b border-white/40 pb-2">
+        <span>Pon - Čet</span>
+        <span className="font-medium">08:00 - 00:00</span>
+      </div>
+      <div className="flex justify-between border-b border-white/40 pb-2">
+        <span>Pet - Sub</span>
+        <span className="font-medium">08:00 - 01:00</span>
+      </div>
+      <div className="flex justify-between">
+        <span>Nedelja</span>
+        <span className="text-white font-semibold">Zatvoreno</span>
+      </div>
+    </div>
+
+    {/* Phone Number */}
+    <div className="flex justify-between border-t border-white/40 pt-2 mt-6 text-base md:text-lg">
+      <span>Kontakt telefon</span>
+      <a
+        href="tel:+381611315483"
+        className="font-medium underline hover:text-white"
+      >
+        +381611315483
+      </a>
+    </div>
+  </div>
+</div>
+
+        <div className="w-full hidden lg:block lg:w-1/2">
           <Image
-            src="/images/img2.jpg"
-            alt="Pažljivo odabrana kolekcija vina u vinskom baru Wine & Fine na Vračaru"
+            src="/images/real/img5.jpeg"
+            alt="Vinski bar Wine & Fine na Vračaru"
             width={800}
             height={600}
-            className="rounded-xl shadow-lg w-full"
+            className="rounded-md shadow-lg w-full"
             loading="lazy"
           />
-        </div>
+
+      </div>
       </div>
 
       {/* Section 2 */}
-      <div className="flex flex-col md:flex-row-reverse items-center gap-10 pt-26 max-w-7xl mx-auto px-6">
-        <div className="md:w-1/2 text-white text-lg  font-serif leading-relaxed">
-          <h2 className="mb-4 text-3xl">
+      <div className="flex flex-col-reverse md:flex-row-reverse items-center gap-12 w-full max-w-[90rem] mx-auto px-4 sm:px-8">
+        <div className="w-full md:w-1/2 text-white text-lg font-serif leading-relaxed">
+          <h2 className="mb-6 text-3xl lg:text-4xl">
             Uživanje u vrhunskim vinima u prijatnoj atmosferi
           </h2>
-           <p>
+          <p>
             Posetite nas i uživajte u bogatoj ponudi crvenih, belih i roze vina u opuštenoj atmosferi. Bilo da ste strastveni poznavalac vina ili tek otkrivate svet vinskih aroma, kod nas ćete pronaći idealno vino za svaku priliku.
           </p>
-          <button className='"text-black bg-white/50 hover:bg-white/80 mt-5 font-serif px-6 py-3 rounded-full lg:border-transparent hover:border-yellow-400 transition-all duration-300'>
-   <a
-  href="/#contact"
- className='text-black font-serif'
-  aria-label="Galerija - Wine & Fine"
->
-  Rezervišite svoj sto
-</a>
+          <button className="text-white bg-transparent border border-white hover:bg-white/80 mt-6 font-serif px-6 py-3 transition-all duration-300">
+            <a
+              href="/#contact"
+              className="text-white font-serif"
+              aria-label="Galerija - Wine & Fine"
+            >
+              Rezervišite svoj sto
+            </a>
           </button>
- 
         </div>
-        <div className="md:w-1/2 pb-26">
+        <div className="w-full md:w-1/2">
           <Image
             src="/images/real/img4.jpeg"
             alt="Topla i prijatna atmosfera vinskog bara Wine & Fine na Vračaru"
             width={800}
             height={600}
-            className="rounded-xl shadow-lg w-full"
+            className="rounded-md shadow-lg w-full"
             loading="lazy"
           />
         </div>
       </div>
 
-      {/* Mid-Section CTA */}
-      
-
-    {/* Section 3 */}
-<div className="w-full rounded-xl relative text-white text-lg font-serif leading-relaxed py-26">
-  {/* Background image */}
-  <div className="absolute inset-0 bg-[url('/images/img4.jpg')] bg-cover bg-center rounded-xl" />
-
-  {/* Overlay */}
-  <div className="absolute inset-0 bg-black/60 rounded-xl" />
-
-  {/* Content */}
-  <div className="relative z-10 p-10 md:p-16 max-w-7xl  mx-auto">
-    <div className="max-w-2xl xl:ml-auto xl:text-end">
-      <h2 className="mb-4 text-3xl py-8">
-        Stručni somelijeri i vinske degustacije
-      </h2>
-      <p>
-        Naš tim posvećenih somelijera rado će vam pomoći da otkrijete nove ukuse i naučite više o svetu vina. Verujemo da je svaka boca prilika za slavlje i da vinska kultura zaslužuje posebnu pažnju.
-      </p>
-      <p className="mt-4">
-        Pridružite se našim redovnim degustacijama vina i događajima, i uživajte u nezaboravnom vinskom iskustvu u srcu Beograda.
-      </p>
-    </div>
-  </div>
-</div>
-
-
-
-      {/* Instagram Feed */}
-      
-
-     
+ 
     </section>
   )
 }
