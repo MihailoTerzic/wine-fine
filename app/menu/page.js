@@ -25,10 +25,8 @@ export default function MenuPage() {
   const filteredMenu = useMemo(() => {
     if (filter === "All") return menuData;
 
-    // Filter logic for when filter matches subcategory or category fallback
     return menuData
       .map((category) => {
-        // Case 1: items have subcategory
         const filteredSubcats = category.items.filter(
           (item) => item.subcategory === filter
         );
@@ -37,7 +35,6 @@ export default function MenuPage() {
           return { ...category, items: filteredSubcats };
         }
 
-        // Case 2: category without subcategories, check if category name matches filter
         if (
           category.category === filter &&
           category.items.length > 0 &&
@@ -56,26 +53,24 @@ export default function MenuPage() {
       <header className="text-center sticky top-0 bg-black py-8 border-b border-gray-700">
         <h1 className="text-4xl font-serif tracking-wide">Our Menu</h1>
         <p className="mt-2 text-gray-400 italic">Exquisite dishes & curated wines</p>
- <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-6  bg-black z-10">
-        <select
-          aria-label="Filter menu by category or subcategory"
-          className="w-full sm:w-60 bg-black border border-gray-600 rounded-md px-4 py-2 text-gray-300 focus:outline-none focus:ring-2 focus:ring-[#f5ac26]"
-          value={filter}
-           onChange={(e) => {
-    setFilter(e.target.value);
-    window.scrollTo({ top: 0, behavior: "smooth" });
-  }}
-        >
-          {categories.map((cat) => (
-            <option key={cat} value={cat}>
-              {cat}
-            </option>
-          ))}
-        </select>
-      </div>
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-6 bg-black z-10">
+          <select
+            aria-label="Filter menu by category or subcategory"
+            className="w-full sm:w-60 bg-black border border-gray-600 rounded-md px-4 py-2 text-gray-300 focus:outline-none focus:ring-2 focus:ring-[#f5ac26]"
+            value={filter}
+            onChange={(e) => {
+              setFilter(e.target.value);
+              window.scrollTo({ top: 0, behavior: "smooth" });
+            }}
+          >
+            {categories.map((cat) => (
+              <option key={cat} value={cat}>
+                {cat}
+              </option>
+            ))}
+          </select>
+        </div>
       </header>
-
-     
 
       <main className="flex-grow max-w-5xl mx-auto px-4 sm:px-6 lg:px-8 pb-12">
         {filteredMenu.map((category, catIdx) => (
@@ -88,7 +83,9 @@ export default function MenuPage() {
             {category.items[0]?.subcategory ? (
               category.items.map((subcat, subcatIdx) => (
                 <section key={subcatIdx} className="mb-8">
-                  <h3 className="text-xl text-[#f5ac26] font-medium mb-4 border-b">{subcat.subcategory}</h3>
+                  <h3 className="text-xl text-[#f5ac26] font-medium mb-4 border-b">
+                    {subcat.subcategory}
+                  </h3>
                   <div className="space-y-6">
                     {subcat.items.map((item, itemIdx) => (
                       <div
@@ -101,16 +98,22 @@ export default function MenuPage() {
                             <p className="text-sm text-gray-400">{item.description}</p>
                           )}
                         </div>
-                        <span className="mt-2 sm:mt-0 text-lg font-semibold text-end text-[#f5ac26]">
-                          {item.price} RSD
-                        </span>
+                        <div className="text-right text-lg font-semibold text-[#f5ac26]">
+                          {item.price && <span>{item.price} RSD</span>}
+                          {item.priceGlass && (
+                             <div>
+                          <span className="block">{item.priceGlass} | {item.priceBottle} RSD</span>
+                          
+                        </div>
+                          )}
+                        </div>
                       </div>
                     ))}
                   </div>
                 </section>
               ))
             ) : (
-              /* Else, render items directly (no subcategories) */
+              // Else, render items directly (no subcategories)
               <div className="space-y-6">
                 {category.items.map((item, itemIdx) => (
                   <div
@@ -123,9 +126,15 @@ export default function MenuPage() {
                         <p className="text-sm text-gray-400">{item.description}</p>
                       )}
                     </div>
-                    <span className="mt-2 sm:mt-0 text-lg font-semibold text-[#f5ac26]">
-                      {item.price} RSD
-                    </span>
+                    <div className="text-right text-lg font-semibold text-[#f5ac26]">
+                      {item.price && <span>{item.price} RSD</span>}
+                      {item.priceGlass && (
+                        <div>
+                          <span className="block">{item.priceGlass} | {item.priceBottle} RSD</span>
+                          
+                        </div>
+                      )}
+                    </div>
                   </div>
                 ))}
               </div>
