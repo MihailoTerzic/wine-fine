@@ -124,7 +124,7 @@ export default function MenuPage() {
                       )}
                     </div>
                     <span className="mt-2 sm:mt-0 text-lg font-semibold text-[#f5ac26]">
-                      ${item.price}
+                      {item.price} RSD
                     </span>
                   </div>
                 ))}
