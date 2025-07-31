@@ -72,7 +72,7 @@ export default function MenuPage() {
         </div>
       </header>
 
-      <main className="flex-grow max-w-5xl mx-auto px-4 sm:px-6 lg:px-8 pb-12">
+      <main className="flex-grow max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 pb-12">
         {filteredMenu.map((category, catIdx) => (
           <div key={catIdx} className="mb-12">
             <h2 className="text-2xl font-semibold text-[#f5ac26] mb-6 border-b border-gray-700 pb-2">
