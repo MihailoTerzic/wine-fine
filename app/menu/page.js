@@ -93,7 +93,7 @@ export default function MenuPage() {
                     {subcat.items.map((item, itemIdx) => (
                       <div
                         key={itemIdx}
-                        className="flex sm:flex-row justify-between items-center"
+                        className="flex flex-row justify-between items-center"
                       >
                         <div>
                           <p className="text-lg font-medium">{item.name}</p>
@@ -115,7 +115,7 @@ export default function MenuPage() {
                 {category.items.map((item, itemIdx) => (
                   <div
                     key={itemIdx}
-                    className="flex flex-col sm:flex-row sm:justify-between sm:items-start"
+                    className="flex flex-row justify-between items-center"
                   >
                     <div>
                       <h4 className="text-lg font-medium">{item.name}</h4>
