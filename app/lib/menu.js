@@ -199,35 +199,309 @@ const menuData = [
       }
     ]
   },
-  {
-    "category": "KOKTELI / COCKTAILS",
-    "items": [
-      {"name": "Long Island Iced Tea", "description": "(vodka, gin, white rum, tequila, triple sec, lemon juice, Coca-Cola)", "price": 990},
-      {"name": "Old Fashioned", "description": "(Jack Daniel's, brown sugar, angostura bitters, soda)", "price": 890},
-      {"name": "Zlatni Old Fashioned / Golden Old Fashioned", "description": "(Old gin Zločin i Kazan, angostura bitters, soda)", "price": 950},
-      {"name": "Gin Tonic / Tonic & Gin", "description": "(gin, tonic)", "price": 720},
-      {"name": "Martini & Tonic / Martini & Tonic", "description": "(martini bianco, tonic)", "price": 720},
-      {"name": "Bloody Mary / Bloody Mary", "description": "(vodka, tomato juice, Worcestershire sauce, tabasco)", "price": 690},
-      {"name": "Mojito / Mojito", "description": "(white rum, mint, sugar, soda, lime)", "price": 790},
-      {"name": "Whiskey Sour", "description": "(whiskey, lemon juice, sugar syrup)", "price": 790},
-      {"name": "Whiskey Ginger", "description": "(whiskey, ginger ale)", "price": 790},
-      {"name": "Daiquiri", "description": "(white rum, lime juice, sugar syrup)", "price": 790},
-      {"name": "Cosmopolitan", "description": "(vodka, triple sec, lime juice, cranberry juice)", "price": 790},
-      {"name": "Caipirinha", "description": "(cachaça, lime, sugar)", "price": 790}
-    ]
-  },
-  {
-    "category": "NAPIĆI ZA ODRASLE / DRINKS FOR ADULTS",
-    "items": [
-      {
-        "subcategory": "VINO / WINE",
-        "items": [
-          {"name": "Pino Sivi 0.75", "price": 2200},
-          {"name": "Vranac 0.75", "price": 2200},
-          {"name": "Nešto belo (sorta zaleži od ponude)", "price": 2200}
-        ]
-      }
-    ]
-  }
+{
+  "category": "KOKTELI / COCKTAILS",
+  "items": [
+    {
+      "name": "Long Island Iced Tea",
+      "description": "(vodka, gin, white rum, tequila, triple sec, lemon juice, Coca-Cola)",
+      "price": 990
+    },
+    {
+      "name": "Old Fashioned",
+      "description": "(Jack Daniel's, brown sugar, angostura bitters, soda)",
+      "price": 890
+    },
+    {
+      "name": "Zlatni Old Fashioned / Golden Old Fashioned",
+      "description": "(Old gin Zločin i Kazan, angostura bitters, soda)",
+      "price": 800
+    },
+    {
+      "name": "Melon Martini",
+      "description": "(vodka, melon liqueur, lemon juice)",
+      "price": 790
+    },
+    {
+      "name": "Negroni",
+      "description": "(gin, Campari, Martini Rosso)",
+      "price": 790
+    },
+    {
+      "name": "Zlodžin",
+      "description": "(Botanical gin, tonic, soda, elderflower syrup)",
+      "price": 750
+    },
+    {
+      "name": "Negroni Zločin i Kazan",
+      "description": "(Zločin i Kazan gin, Campari, Martini Rosso)",
+      "price": 730
+    },
+    {
+      "name": "Aperol Spritz",
+      "description": "(Aperol, prosecco, soda, orange slice)",
+      "price": 720
+    },
+    {
+      "name": "Hugo",
+      "description": "(prosecco, elderflower, soda, mint, lime)",
+      "price": 720
+    },
+    {
+      "name": "Limoncello Spritz",
+      "description": "(limoncello, prosecco, soda)",
+      "price": 720
+    },
+    {
+      "name": "Sonar",
+      "description": "(Pomegranate gin, tonic, soda)",
+      "price": 650
+    },
+    {
+      "name": "Champagne koktel / Champagne cocktail",
+      "description": "(Cava, angostura bitters)",
+      "price": 600
+    },
+    {
+      "name": "Dry džin tonik / Dry gin & tonic",
+      "description": "(dry gin, soda, tonic)",
+      "price": 600
+    }
+  ]
+}
+,
+{
+  "category": "VINA / WINES",
+  "subcategory": "BELA VINA / WHITE WINES",
+  "items": [
+    {
+      "subcategory": "BELA VINA | SRBIJA",
+      "items": [
+        { "name": "Eden Chardonnay", "description": "Eden | Chardonnay Barik", "price": 2820 },
+        { "name": "Nebo", "description": "Despotika | Pinot Blanc, Rajnski Riesling", "priceGlass": 490, "priceBottle": 2900 },
+        { "name": "Ponoćna priča", "description": "Tri planine | Tamjanika", "priceGlass": 550, "priceBottle": 2950 },
+        { "name": "Pusula Sauvignon Blanc", "description": "Pusula | Sauvignon Blanc", "price": 3050 },
+        { "name": "Dodir", "description": "Despotika | Muscat", "priceGlass": 550, "priceBottle": 3200 },
+        { "name": "Deurić Gewürztraminer", "description": "Deurić | Gewürztraminer", "priceGlass": 560, "priceBottle": 3300 },
+        { "name": "Panta Rei", "description": "Stemina | Chardonnay", "priceGlass": 590, "priceBottle": 3300 },
+        { "name": "Jagoda", "description": "Tri planine | Strawberry grape", "price": 4400 }
+      ]
+    },
+    {
+      "subcategory": "BELA VINA | HRVATSKA",
+      "items": [
+        { "name": "Pošip Jokić", "description": "Jokić | Pošip", "priceGlass": 580, "priceBottle": 3320 },
+        { "name": "Coronica Malvazija", "description": "Coronica | Malvazija", "price": 3700 }
+      ]
+    },
+    {
+      "subcategory": "BELA VINA | MAKEDONIJA",
+      "items": [
+        { "name": "Luda Mara", "description": "Tikveš | Tamjanika", "price": 2940 },
+        { "name": "Bela Voda", "description": "Tikveš | Chardonnay", "price": 6200 }
+      ]
+    },
+    {
+      "subcategory": "BELA VINA | FRANCUSKA",
+      "items": [
+        { "name": "Touraine", "description": "Calvet | Sauvignon Blanc", "price": 2800 },
+        { "name": "Henri Bourgeois Petit Bourgeois Blanc", "description": "Henri Bourgeois | Sauvignon Blanc", "priceGlass": 530, "priceBottle": 2950 },
+        { "name": "Chablis La Chanfleure Louis Latour", "description": "Louis Latour | Chardonnay", "price": 6500 },
+        { "name": "Chablis Grand Cru Blanchot Simonnet-Febvre", "description": "Simonnet-Febvre | Chardonnay", "price": 19000 }
+      ]
+    },
+    {
+      "subcategory": "BELA VINA | ITALIJA",
+      "items": [
+        { "name": "Calalenta Pecorino", "description": "Fantini | Pecorino", "priceGlass": 510, "priceBottle": 2970 },
+        { "name": "3 Passo", "description": "Ciello e Terra | organic", "price": 3050 },
+        { "name": "Jermann Pinot Grigio", "description": "Jermann | Pinot Grigio", "price": 5700 }
+      ]
+    },
+    {
+      "subcategory": "BELA VINA | ŠPANIJA",
+      "items": [
+        { "name": "Aresan Verdejo", "description": "Castillo de Aresan | Verdejo", "priceGlass": 510, "priceBottle": 2920 },
+        { "name": "Esmeralda Torres", "description": "Torres | Muscat, Gewürztraminer", "price": 2960 }
+      ]
+    }
+  ]
+}
+,
+{
+  
+  "category": "PENUŠAVA VINA / SPARKLING WINES",
+  "items": [
+    {
+      "name": "Aresan Cava",
+      "description": "Castillo de Aresan | Xarello, Macabeo, Parellada | Španija (Penedès)",
+      "priceGlass": 490,
+      "priceBottle": 2900
+    },
+    {
+      "name": "Perlino Prosecco DOC",
+      "description": "Perlino | Glera | Italija (Veneto)",
+      "priceGlass": 500,
+      "priceBottle": 2950
+    },
+    {
+      "name": "Borgoluce Valdobbiadene Prosecco Superiore D.O.C.G Brut",
+      "description": "Borgoluce | Glera | Italija",
+      "price": 3610
+    },
+    {
+      "name": "Crémant de Loire Brut Marquis de Goulaine",
+      "description": "Marquis de Goulaine | Chenin Blanc, Chardonnay, Pinot Noir | Francuska",
+      "price": 3920
+    },
+    {
+      "name": "Cap Classique Blanc",
+      "description": "Neethlingshof | Chardonnay, Pinot Noir | Južna Afrika",
+      "price": 4800
+    },
+    {
+      "name": "Louis Roederer Brut",
+      "description": "Louis Roederer | Chardonnay, Pinot Noir, Pinot Meunier | Francuska",
+      "price": 10400
+    }
+  ]
+},
+{
+  
+  "category": "DEZERTNA VINA / DESSERT WINES",
+  "items": [
+    {
+      "name": "Artesao Ruis Porto",
+      "description": "Artesao Ruis | blend autohtonih portugalskih sorti | Španija",
+      "priceGlass": 470,
+      "priceBottle": 2820
+    },
+    {
+      "name": "Michele Chiarlo Palás Moscato d’Asti",
+      "description": "Michele Chiarlo | Bianco Moscato | Italija",
+      "priceGlass": 620,
+      "priceBottle": 3650
+    }
+  ]
+}
+,
+{
+  
+ 
+  "items": [
+    {
+ "category": "CRVENA VINA / RED WINES",
+      "subcategory": " CRVENA VINA | SRBIJA",
+      "items": [
+        { "name": "Boja Zore", "description": "Tri planine | Prokupac", "price": 2980 },
+        { "name": "Trag", "description": "Despotika | Merlo", "priceGlass": 560, "priceBottle": 3200 },
+        { "name": "Deurić Pinot Noir", "description": "Deurić | Pinot Noir", "priceGlass": 550, "priceBottle": 3250 },
+        { "name": "Dokaz", "description": "Despotika | Cabernet Sauvignon", "priceGlass": 560, "priceBottle": 3300 },
+        { "name": "Deurić Probus", "description": "Deurić | Probus", "price": 3400 },
+        { "name": "Stephanos", "description": "Stemina | Cabernet Sauvignon, Merlot", "priceGlass": 600, "priceBottle": 3420 },
+        { "name": "Jeremić Merlot Terroire", "description": "Jeremić | Merlot", "price": 4660 },
+        { "name": "Cabernet reserve", "description": "Radovanović | Cabernet Sauvignon", "price": 4800 }
+      ]
+    },
+    {
+      "subcategory": " CRVENA VINA | HRVATSKA",
+      "items": [
+        { "name": "Cuvee Jokić", "description": "Jokić | Cabernet Sauvignon, Merlot, Syrah", "priceGlass": 570, "priceBottle": 3380 }
+      ]
+    },
+    {
+      "subcategory": " CRVENA VINA | MAKEDONIJA",
+      "items": [
+        { "name": "Barovo terroir crveno", "description": "Tikveš | Vranac, Kratošija", "price": 6790 }
+      ]
+    },
+    {
+      "subcategory": " CRVENA VINA | ŠPANIJA",
+      "items": [
+        { "name": "Aresan Tempranillo", "description": "Castillo de Aresan | Tempranillo", "price": 3120 }
+      ]
+    },
+    {
+      "subcategory": " CRVENA VINA | FRANCUSKA",
+      "items": [
+        { "name": "Michel Lynch Reserve Medoc", "description": "Michel Lynch | Cabernet Sauvignon, Merlot", "priceGlass": 640, "priceBottle": 3780 }
+      ]
+    },
+    {
+      "subcategory": " CRVENA VINA | ITALIJA",
+      "items": [
+        { "name": "3 Passo rosso", "description": "Ciello e Terra | Organic", "price": 2950 },
+        { "name": "Luccarelli Primitivo Puglia IGP", "description": "Luccarelli | Primitivo", "priceGlass": 540, "priceBottle": 3120 },
+        { "name": "Campo Marina Primitivo Di Manduria", "description": "Luccarelli | Primitivo", "priceGlass": 910, "priceBottle": 5360 },
+        { "name": "Marina Cvetić Montepulciano D'Abruzzo", "description": "Masciarelli | Montepulciano", "price": 5940 },
+        { "name": "Brunello Pelagrilli Siro Pacenti", "description": "Siro Pacenti | Sangiovese", "price": 9270 },
+        { "name": "Amarone Classico Della Vapolicella", "description": "Tomassi | Corvinia, Corvinone, Rondinella, Oseleta", "price": 9960 },
+        { "name": "Brunello di Montalcino Pieve Santa Restituta", "description": "Gaja | Sangiovese", "price": 15270 },
+        { "name": "Cepparello", "description": "Isole e Olena | Sangiovese", "price": 19700 }
+      ]
+    }
+  ]
+}
+,
+{
+  "category": "ROZE VINA / ROSE WINES",
+  "items": [
+    {
+      "name": "Minna Rosé",
+      "description": "Stemina | Pinot Noir | Srbija",
+      "priceGlass": 480,
+      "priceBottle": 2820
+    },
+    {
+      "name": "Calalenta Rosé",
+      "description": "Fantini | Merlot | Italija",
+      "priceGlass": 510,
+      "priceBottle": 2970
+    },
+    {
+      "name": "Roza Nostra",
+      "description": "Erdevik | Merlot, Cabernet Sauvignon | Srbija",
+      "price": 2990
+    },
+    {
+      "name": "Château Gigery Côtes de Provence",
+      "description": "Château Gigery | Grenache Noir, Syrah, Cinsault | Francuska",
+      "price": 3200
+    },
+    {
+      "name": "Whispering Angel",
+      "description": "Château d'Esclans | blend | Francuska",
+      "price": 5900
+    }
+  ]
+},
+
+
+{
+  "category": "NEŠTO ZA POJESTI / FINGER FOOD",
+  "items": [
+    {
+      "name": "Daska pršute & sireva",
+      "description": "Kombinacija pažljivo odabranih sireva i suhomesnatih proizvoda",
+      "price": 1800
+    },
+    {
+      "name": "Mixed board (cheese & dry-cured ham)",
+      "description": "A combination of carefully selected cheese and prosciutto",
+      "price": 1800
+    },
+    {
+      "name": "Paleta sireva / Cheese board",
+      "price": 900
+    },
+    {
+      "name": "Masline / Olives",
+      "price": 250
+    }
+  ]
+}
+
+
+
 ]
 export default menuData;
