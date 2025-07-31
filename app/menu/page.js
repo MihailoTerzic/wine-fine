@@ -96,7 +96,7 @@ export default function MenuPage() {
                         className="flex sm:flex-row justify-between items-center"
                       >
                         <div>
-                          <h4 className="text-lg font-medium">{item.name}</h4>
+                          <p className="text-lg font-medium">{item.name}</p>
                           {item.description && (
                             <p className="text-sm text-gray-400">{item.description}</p>
                           )}
