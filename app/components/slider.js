@@ -41,7 +41,7 @@ export default function ImageSlider() {
   }
 
   return (
-    <div className="w-full max-w-7xl mx-auto relative overflow-hidden shadow-lg">
+    <div className="w-full max-w-7xl mx-auto relative overflow-hidden py-26 shadow-lg">
       {/* Slider */}
       <div
         className="flex transition-transform ease-in-out duration-700"

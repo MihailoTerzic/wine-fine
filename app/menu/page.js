@@ -20,9 +20,7 @@ export default function MenuPage() {
       {/* Header */}
       <header className="text-center sticky top-0 bg-black py-8 border-b border-gray-700 z-20">
         <h1 className="text-4xl font-serif tracking-wide">Our Menu</h1>
-        <p className="mt-2 text-gray-400 italic">
-          Exquisite dishes & curated wines
-        </p>
+        
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-6 bg-black">
           <select
             aria-label="Filter menu by category"
@@ -66,7 +64,7 @@ export default function MenuPage() {
                           className="flex flex-col sm:flex-row sm:items-center justify-between gap-y-2 gap-x-4"
                         >
                           <div className="flex-1 min-w-0">
-                            <p className="text-lg font-medium">{item.name}</p>
+                            <p className="text-lg font-thin ">{item.name}</p>
                             {item.description && (
                               <p className="text-sm text-gray-400">{item.description}</p>
                             )}

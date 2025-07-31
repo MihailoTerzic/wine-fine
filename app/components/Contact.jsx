@@ -58,7 +58,7 @@ export default function Contact() {
       <div className='relative z-10 flex flex-col items-center justify-center px-4 py-12 max-w-4xl mx-auto space-y-12'>
 
         {/* Google Map */}
-        <div className='w-full rounded-2xl overflow-hidden shadow-lg border border-white/10'>
+        <div className='w-full rounded-sm overflow-hidden shadow-lg border border-white/10'>
           <iframe
             title='Vino Cafe Location'
             src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2831.060203498627!2d20.4727836!3d44.79996169999999!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x475a707527ee298b%3A0xf484870d392da854!2sKursulina%2012%2C%20Beograd%2011000!5e0!3m2!1sen!2srs!4v1748336993490!5m2!1sen!2srs"
@@ -117,7 +117,7 @@ export default function Contact() {
 
   <button
     type="submit"
-    className="w-full py-3 mt-2 bg-transparent border border-white rounded-md text-white font-semibold hover:bg-white hover:text-black transition"
+    className="w-full py-3 mt-2 bg-transparent border-1 border-white text-white font-thin hover:bg-white hover:text-black transition"
   >
     Pošalji Poruku
   </button>
@@ -142,7 +142,7 @@ export default function Contact() {
             </p>
             <button
               onClick={closeModal}
-              className="block mx-auto mt-2 bg-gray-800 text-white px-4 py-2 rounded hover:bg-gray-700 transition"
+              className="block mx-auto mt-2 bg-gray-800 text-white px-4 py-2  hover:bg-gray-700 transition"
             >
               Zatvori
             </button>

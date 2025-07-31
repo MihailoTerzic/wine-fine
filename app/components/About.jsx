@@ -15,19 +15,19 @@ export default function About() {
             Vaš Kutak za Vino na Vračaru 
           </h1>
           <p>
-            U srcu Vračara, Wine & Fine vinski bar u Beogradu je mesto gde vino priča svoju jedinstvenu priču. 
+            Za sve vas koji verujete da vino nije samo piće, već priča. Dobrodošli u vaš novi omiljeni kutak vina u srcu Beograda.
             Svaki gutljaj vodi vas na putovanje kroz najbolje vinograde sveta i otkriva raznovrsne ukuse kako poznatih svetskih etiketa.
           </p>
-          
-          <button className="text-white text-sm md:text-md  hover:text-black bg-transparent border border-white hover:bg-white/80 mt-6 font-serif px-6 py-3 transition-all duration-300">
+           <button className="text-white text-sm lg:text-md bg-transparent border border-white hover:bg-white/80 mt-6 font-serif px-6 py-3 transition-all duration-300">
             <a
-              href="/menu"
-              className="text-white font-serif"
-              aria-label="Meni - Wine & Fine"
+              href="/#contact"
+              className="text-white "
+              aria-label="Galerija - Wine & Fine"
             >
-              Naša ponuda vina
+              Rezervišite svoj sto
             </a>
           </button>
+         
         </div>
 
         {/* Working hours block */}
@@ -87,15 +87,16 @@ export default function About() {
             Uživanje u vrhunskim vinima u prijatnoj atmosferi
           </h2>
           <p>
-            Posetite nas i uživajte u bogatoj ponudi crvenih, belih i roze vina u opuštenoj atmosferi. Bilo da ste strastveni poznavalac vina ili tek otkrivate svet vinskih aroma, kod nas ćete pronaći idealno vino za svaku priliku.
+            Našu vinsku kartu birali smo pažljivo — korak po korak, čašu po čašu. Svaka etiketa koju nudimo je tu jer nam se iskreno dopala i jer želimo da i vi uživate u njoj,
+             bilo da ste iskusni vinopija ili neko ko tek ulazi u svet vinskih aroma.
           </p>
-          <button className="text-white text-sm lg:text-md bg-transparent border border-white hover:bg-white/80 mt-6 font-serif px-6 py-3 transition-all duration-300">
+          <button className="text-white text-sm md:text-md  hover:text-black bg-transparent border border-white hover:bg-white/80 mt-6 font-serif px-6 py-3 transition-all duration-300">
             <a
-              href="/#contact"
-              className="text-white "
-              aria-label="Galerija - Wine & Fine"
+              href="/menu"
+              className="text-white font-serif"
+              aria-label="Meni - Wine & Fine"
             >
-              Rezervišite svoj sto
+              Naša ponuda vina
             </a>
           </button>
         </div>

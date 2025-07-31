@@ -11,9 +11,10 @@ export default function page() {
     <div>
       <Hero></Hero>
       <About></About>
-      <ImageSliderWithModal/>
+      
       <InstaFeed/>
       <Fillsection/>
+      <ImageSliderWithModal/>
       <Contact/>
       
     </div>
