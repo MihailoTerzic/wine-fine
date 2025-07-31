@@ -270,212 +270,147 @@ const menuData = [
   ]
 }
 ,
+
 {
   "category": "VINA / WINES",
-  "subcategory": "BELA VINA / WHITE WINES",
   "items": [
     {
-      "subcategory": "BELA VINA | SRBIJA",
+      "subcategory": "BELA VINA / WHITE WINES - SRBIJA",
       "items": [
-        { "name": "Eden Chardonnay", "description": "Eden | Chardonnay Barik", "price": 2820 },
-        { "name": "Nebo", "description": "Despotika | Pinot Blanc, Rajnski Riesling", "priceGlass": 490, "priceBottle": 2900 },
-        { "name": "Ponoćna priča", "description": "Tri planine | Tamjanika", "priceGlass": 550, "priceBottle": 2950 },
-        { "name": "Pusula Sauvignon Blanc", "description": "Pusula | Sauvignon Blanc", "price": 3050 },
-        { "name": "Dodir", "description": "Despotika | Muscat", "priceGlass": 550, "priceBottle": 3200 },
-        { "name": "Deurić Gewürztraminer", "description": "Deurić | Gewürztraminer", "priceGlass": 560, "priceBottle": 3300 },
-        { "name": "Panta Rei", "description": "Stemina | Chardonnay", "priceGlass": 590, "priceBottle": 3300 },
-        { "name": "Jagoda", "description": "Tri planine | Strawberry grape", "price": 4400 }
+        {"name": "Eden Chardonnay", "description": "Eden | Chardonnay Barik", "price": 2820},
+        {"name": "Nebo", "description": "Despotika | Pinot Blanc, Rajnski Riesling", "priceGlass": 490, "priceBottle": 2900},
+        {"name": "Ponoćna priča", "description": "Tri planine | Tamjanika", "priceGlass": 550, "priceBottle": 2950},
+        {"name": "Pusula Sauvignon Blanc", "description": "Pusula | Sauvignon Blanc", "price": 3050},
+        {"name": "Dodir", "description": "Despotika | Muscat", "priceGlass": 550, "priceBottle": 3200},
+        {"name": "Deurić Gewürztraminer", "description": "Deurić | Gewürztraminer", "priceGlass": 560, "priceBottle": 3300},
+        {"name": "Panta Rei", "description": "Stemina | Chardonnay", "priceGlass": 590, "priceBottle": 3300},
+        {"name": "Jagoda", "description": "Tri planine | Strawberry grape", "price": 4400}
       ]
     },
     {
-      "subcategory": "BELA VINA | HRVATSKA",
+      "subcategory": "BELA VINA / WHITE WINES - HRVATSKA",
       "items": [
-        { "name": "Pošip Jokić", "description": "Jokić | Pošip", "priceGlass": 580, "priceBottle": 3320 },
-        { "name": "Coronica Malvazija", "description": "Coronica | Malvazija", "price": 3700 }
+        {"name": "Pošip Jokić", "description": "Jokić | Pošip", "priceGlass": 580, "priceBottle": 3320},
+        {"name": "Coronica Malvazija", "description": "Coronica | Malvazija", "price": 3700}
       ]
     },
     {
-      "subcategory": "BELA VINA | MAKEDONIJA",
+      "subcategory": "BELA VINA / WHITE WINES - MAKEDONIJA",
       "items": [
-        { "name": "Luda Mara", "description": "Tikveš | Tamjanika", "price": 2940 },
-        { "name": "Bela Voda", "description": "Tikveš | Chardonnay", "price": 6200 }
+        {"name": "Luda Mara", "description": "Tikveš | Tamjanika", "price": 2940},
+        {"name": "Bela Voda", "description": "Tikveš | Chardonnay", "price": 6200}
       ]
     },
     {
-      "subcategory": "BELA VINA | FRANCUSKA",
+      "subcategory": "BELA VINA / WHITE WINES - FRANCUSKA",
       "items": [
-        { "name": "Touraine", "description": "Calvet | Sauvignon Blanc", "price": 2800 },
-        { "name": "Henri Bourgeois Petit Bourgeois Blanc", "description": "Henri Bourgeois | Sauvignon Blanc", "priceGlass": 530, "priceBottle": 2950 },
-        { "name": "Chablis La Chanfleure Louis Latour", "description": "Louis Latour | Chardonnay", "price": 6500 },
-        { "name": "Chablis Grand Cru Blanchot Simonnet-Febvre", "description": "Simonnet-Febvre | Chardonnay", "price": 19000 }
+        {"name": "Touraine", "description": "Calvet | Sauvignon Blanc", "price": 2800},
+        {"name": "Henri Bourgeois Petit Bourgeois Blanc", "description": "Henri Bourgeois | Sauvignon Blanc", "priceGlass": 530, "priceBottle": 2950},
+        {"name": "Chablis La Chanfleure Louis Latour", "description": "Louis Latour | Chardonnay", "price": 6500},
+        {"name": "Chablis Grand Cru Blanchot Simonnet-Febvre", "description": "Simonnet-Febvre | Chardonnay", "price": 19000}
       ]
     },
     {
-      "subcategory": "BELA VINA | ITALIJA",
+      "subcategory": "BELA VINA / WHITE WINES - ITALIJA",
       "items": [
-        { "name": "Calalenta Pecorino", "description": "Fantini | Pecorino", "priceGlass": 510, "priceBottle": 2970 },
-        { "name": "3 Passo", "description": "Ciello e Terra | organic", "price": 3050 },
-        { "name": "Jermann Pinot Grigio", "description": "Jermann | Pinot Grigio", "price": 5700 }
+        {"name": "Calalenta Pecorino", "description": "Fantini | Pecorino", "priceGlass": 510, "priceBottle": 2970},
+        {"name": "3 Passo", "description": "Ciello e Terra | organic", "price": 3050},
+        {"name": "Jermann Pinot Grigio", "description": "Jermann | Pinot Grigio", "price": 5700}
       ]
     },
     {
-      "subcategory": "BELA VINA | ŠPANIJA",
+      "subcategory": "BELA VINA / WHITE WINES - ŠPANIJA",
       "items": [
-        { "name": "Aresan Verdejo", "description": "Castillo de Aresan | Verdejo", "priceGlass": 510, "priceBottle": 2920 },
-        { "name": "Esmeralda Torres", "description": "Torres | Muscat, Gewürztraminer", "price": 2960 }
+        {"name": "Aresan Verdejo", "description": "Castillo de Aresan | Verdejo", "priceGlass": 510, "priceBottle": 2920},
+        {"name": "Esmeralda Torres", "description": "Torres | Muscat, Gewürztraminer", "price": 2960}
+      ]
+    },
+    {
+      "subcategory": "PENUŠAVA VINA / SPARKLING WINES",
+      "items": [
+        {"name": "Aresan Cava", "description": "Castillo de Aresan | Xarello, Macabeo, Parellada | Španija (Penedès)", "priceGlass": 490, "priceBottle": 2900},
+        {"name": "Perlino Prosecco DOC", "description": "Perlino | Glera | Italija (Veneto)", "priceGlass": 500, "priceBottle": 2950},
+        {"name": "Borgoluce Valdobbiadene Prosecco Superiore D.O.C.G Brut", "description": "Borgoluce | Glera | Italija", "price": 3610},
+        {"name": "Crémant de Loire Brut Marquis de Goulaine", "description": "Marquis de Goulaine | Chenin Blanc, Chardonnay, Pinot Noir | Francuska", "price": 3920},
+        {"name": "Cap Classique Blanc", "description": "Neethlingshof | Chardonnay, Pinot Noir | Južna Afrika", "price": 4800},
+        {"name": "Louis Roederer Brut", "description": "Louis Roederer | Chardonnay, Pinot Noir, Pinot Meunier | Francuska", "price": 10400}
+      ]
+    },
+    {
+      "subcategory": "DEZERTNA VINA / DESSERT WINES",
+      "items": [
+        {"name": "Artesao Ruis Porto", "description": "Artesao Ruis | blend autohtonih portugalskih sorti | Španija", "priceGlass": 470, "priceBottle": 2820},
+        {"name": "Michele Chiarlo Palás Moscato d’Asti", "description": "Michele Chiarlo | Bianco Moscato | Italija", "priceGlass": 620, "priceBottle": 3650}
+      ]
+    },
+    {
+      "subcategory": "CRVENA VINA / RED WINES - SRBIJA",
+      "items": [
+        {"name": "Boja Zore", "description": "Tri planine | Prokupac", "price": 2980},
+        {"name": "Trag", "description": "Despotika | Merlo", "priceGlass": 560, "priceBottle": 3200},
+        {"name": "Deurić Pinot Noir", "description": "Deurić | Pinot Noir", "priceGlass": 550, "priceBottle": 3250},
+        {"name": "Dokaz", "description": "Despotika | Cabernet Sauvignon", "priceGlass": 560, "priceBottle": 3300},
+        {"name": "Deurić Probus", "description": "Deurić | Probus", "price": 3400},
+        {"name": "Stephanos", "description": "Stemina | Cabernet Sauvignon, Merlot", "priceGlass": 600, "priceBottle": 3420},
+        {"name": "Jeremić Merlot Terroire", "description": "Jeremić | Merlot", "price": 4660},
+        {"name": "Cabernet reserve", "description": "Radovanović | Cabernet Sauvignon", "price": 4800}
+      ]
+    },
+    {
+      "subcategory": "CRVENA VINA / RED WINES - HRVATSKA",
+      "items": [
+        {"name": "Cuvee Jokić", "description": "Jokić | Cabernet Sauvignon, Merlot, Syrah", "priceGlass": 570, "priceBottle": 3380}
+      ]
+    },
+    {
+      "subcategory": "CRVENA VINA / RED WINES - MAKEDONIJA",
+      "items": [
+        {"name": "Barovo terroir crveno", "description": "Tikveš | Vranac, Kratošija", "price": 6790}
+      ]
+    },
+    {
+      "subcategory": "CRVENA VINA / RED WINES - ŠPANIJA",
+      "items": [
+        {"name": "Aresan Tempranillo", "description": "Castillo de Aresan | Tempranillo", "price": 3120}
+      ]
+    },
+    {
+      "subcategory": "CRVENA VINA / RED WINES - FRANCUSKA",
+      "items": [
+        {"name": "Michel Lynch Reserve Medoc", "description": "Michel Lynch | Cabernet Sauvignon, Merlot", "priceGlass": 640, "priceBottle": 3780}
+      ]
+    },
+    {
+      "subcategory": "CRVENA VINA / RED WINES - ITALIJA",
+      "items": [
+        {"name": "3 Passo rosso", "description": "Ciello e Terra | Organic", "price": 2950},
+        {"name": "Luccarelli Primitivo Puglia IGP", "description": "Luccarelli | Primitivo", "priceGlass": 540, "priceBottle": 3120},
+        {"name": "Campo Marina Primitivo Di Manduria", "description": "Luccarelli | Primitivo", "priceGlass": 910, "priceBottle": 5360},
+        {"name": "Marina Cvetić Montepulciano D'Abruzzo", "description": "Masciarelli | Montepulciano", "price": 5940},
+        {"name": "Brunello Pelagrilli Siro Pacenti", "description": "Siro Pacenti | Sangiovese", "price": 9270},
+        {"name": "Amarone Classico Della Vapolicella", "description": "Tomassi | Corvinia, Corvinone, Rondinella, Oseleta", "price": 9960},
+        {"name": "Brunello di Montalcino Pieve Santa Restituta", "description": "Gaja | Sangiovese", "price": 15270},
+        {"name": "Cepparello", "description": "Isole e Olena | Sangiovese", "price": 19700}
+      ]
+    },
+    {
+      "subcategory": "ROZE VINA / ROSE WINES",
+      "items": [
+        {"name": "Minna Rosé", "description": "Stemina | Pinot Noir | Srbija", "priceGlass": 480, "priceBottle": 2820},
+        {"name": "Calalenta Rosé", "description": "Fantini | Merlot | Italija", "priceGlass": 510, "priceBottle": 2970},
+        {"name": "Roza Nostra", "description": "Erdevik | Merlot, Cabernet Sauvignon | Srbija", "price": 2990},
+        {"name": "Château Gigery Côtes de Provence", "description": "Château Gigery | Grenache Noir, Syrah, Cinsault | Francuska", "price": 3200},
+        {"name": "Whispering Angel", "description": "Château d'Esclans | blend | Francuska", "price": 5900}
       ]
     }
   ]
 }
-,
-{
-  
-  "category": "PENUŠAVA VINA / SPARKLING WINES",
-  "items": [
-    {
-      "name": "Aresan Cava",
-      "description": "Castillo de Aresan | Xarello, Macabeo, Parellada | Španija (Penedès)",
-      "priceGlass": 490,
-      "priceBottle": 2900
-    },
-    {
-      "name": "Perlino Prosecco DOC",
-      "description": "Perlino | Glera | Italija (Veneto)",
-      "priceGlass": 500,
-      "priceBottle": 2950
-    },
-    {
-      "name": "Borgoluce Valdobbiadene Prosecco Superiore D.O.C.G Brut",
-      "description": "Borgoluce | Glera | Italija",
-      "price": 3610
-    },
-    {
-      "name": "Crémant de Loire Brut Marquis de Goulaine",
-      "description": "Marquis de Goulaine | Chenin Blanc, Chardonnay, Pinot Noir | Francuska",
-      "price": 3920
-    },
-    {
-      "name": "Cap Classique Blanc",
-      "description": "Neethlingshof | Chardonnay, Pinot Noir | Južna Afrika",
-      "price": 4800
-    },
-    {
-      "name": "Louis Roederer Brut",
-      "description": "Louis Roederer | Chardonnay, Pinot Noir, Pinot Meunier | Francuska",
-      "price": 10400
-    }
-  ]
-},
-{
-  
-  "category": "DEZERTNA VINA / DESSERT WINES",
-  "items": [
-    {
-      "name": "Artesao Ruis Porto",
-      "description": "Artesao Ruis | blend autohtonih portugalskih sorti | Španija",
-      "priceGlass": 470,
-      "priceBottle": 2820
-    },
-    {
-      "name": "Michele Chiarlo Palás Moscato d’Asti",
-      "description": "Michele Chiarlo | Bianco Moscato | Italija",
-      "priceGlass": 620,
-      "priceBottle": 3650
-    }
-  ]
-}
-,
-{
-  
- 
-  "items": [
-    {
- "category": "CRVENA VINA / RED WINES",
-      "subcategory": " CRVENA VINA | SRBIJA",
-      "items": [
-        { "name": "Boja Zore", "description": "Tri planine | Prokupac", "price": 2980 },
-        { "name": "Trag", "description": "Despotika | Merlo", "priceGlass": 560, "priceBottle": 3200 },
-        { "name": "Deurić Pinot Noir", "description": "Deurić | Pinot Noir", "priceGlass": 550, "priceBottle": 3250 },
-        { "name": "Dokaz", "description": "Despotika | Cabernet Sauvignon", "priceGlass": 560, "priceBottle": 3300 },
-        { "name": "Deurić Probus", "description": "Deurić | Probus", "price": 3400 },
-        { "name": "Stephanos", "description": "Stemina | Cabernet Sauvignon, Merlot", "priceGlass": 600, "priceBottle": 3420 },
-        { "name": "Jeremić Merlot Terroire", "description": "Jeremić | Merlot", "price": 4660 },
-        { "name": "Cabernet reserve", "description": "Radovanović | Cabernet Sauvignon", "price": 4800 }
-      ]
-    },
-    {
-      "subcategory": " CRVENA VINA | HRVATSKA",
-      "items": [
-        { "name": "Cuvee Jokić", "description": "Jokić | Cabernet Sauvignon, Merlot, Syrah", "priceGlass": 570, "priceBottle": 3380 }
-      ]
-    },
-    {
-      "subcategory": " CRVENA VINA | MAKEDONIJA",
-      "items": [
-        { "name": "Barovo terroir crveno", "description": "Tikveš | Vranac, Kratošija", "price": 6790 }
-      ]
-    },
-    {
-      "subcategory": " CRVENA VINA | ŠPANIJA",
-      "items": [
-        { "name": "Aresan Tempranillo", "description": "Castillo de Aresan | Tempranillo", "price": 3120 }
-      ]
-    },
-    {
-      "subcategory": " CRVENA VINA | FRANCUSKA",
-      "items": [
-        { "name": "Michel Lynch Reserve Medoc", "description": "Michel Lynch | Cabernet Sauvignon, Merlot", "priceGlass": 640, "priceBottle": 3780 }
-      ]
-    },
-    {
-      "subcategory": " CRVENA VINA | ITALIJA",
-      "items": [
-        { "name": "3 Passo rosso", "description": "Ciello e Terra | Organic", "price": 2950 },
-        { "name": "Luccarelli Primitivo Puglia IGP", "description": "Luccarelli | Primitivo", "priceGlass": 540, "priceBottle": 3120 },
-        { "name": "Campo Marina Primitivo Di Manduria", "description": "Luccarelli | Primitivo", "priceGlass": 910, "priceBottle": 5360 },
-        { "name": "Marina Cvetić Montepulciano D'Abruzzo", "description": "Masciarelli | Montepulciano", "price": 5940 },
-        { "name": "Brunello Pelagrilli Siro Pacenti", "description": "Siro Pacenti | Sangiovese", "price": 9270 },
-        { "name": "Amarone Classico Della Vapolicella", "description": "Tomassi | Corvinia, Corvinone, Rondinella, Oseleta", "price": 9960 },
-        { "name": "Brunello di Montalcino Pieve Santa Restituta", "description": "Gaja | Sangiovese", "price": 15270 },
-        { "name": "Cepparello", "description": "Isole e Olena | Sangiovese", "price": 19700 }
-      ]
-    }
-  ]
-}
-,
-{
-  "category": "ROZE VINA / ROSE WINES",
-  "items": [
-    {
-      "name": "Minna Rosé",
-      "description": "Stemina | Pinot Noir | Srbija",
-      "priceGlass": 480,
-      "priceBottle": 2820
-    },
-    {
-      "name": "Calalenta Rosé",
-      "description": "Fantini | Merlot | Italija",
-      "priceGlass": 510,
-      "priceBottle": 2970
-    },
-    {
-      "name": "Roza Nostra",
-      "description": "Erdevik | Merlot, Cabernet Sauvignon | Srbija",
-      "price": 2990
-    },
-    {
-      "name": "Château Gigery Côtes de Provence",
-      "description": "Château Gigery | Grenache Noir, Syrah, Cinsault | Francuska",
-      "price": 3200
-    },
-    {
-      "name": "Whispering Angel",
-      "description": "Château d'Esclans | blend | Francuska",
-      "price": 5900
-    }
-  ]
-},
 
+
+,
+
+  // OVDE KRECE
+ 
 
 {
   "category": "NEŠTO ZA POJESTI / FINGER FOOD",
