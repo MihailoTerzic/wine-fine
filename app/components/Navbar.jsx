@@ -22,7 +22,7 @@ export default function Navbar() {
       <ul className="hidden md:flex space-x-8 text-lg font-serif">
         <li><a href="/#home" className="hover:underline capitalize">Početna</a></li>
         <li><a href="/#about" className="hover:underline capitalize">O Nama</a></li>
-        <li><a href="https://simplebooklet.com/winefine#page=1" className="hover:underline capitalize">Meni</a></li>
+        <li><a href="/menu" className="hover:underline capitalize">Meni</a></li>
         <li><a href="/#contact" className="hover:underline capitalize">Kontakt</a></li>
         
       </ul>
@@ -35,7 +35,7 @@ export default function Navbar() {
       >
         <a href="/#home" onClick={handleLinkClick} className="capitalize">Početna</a>
         <a href="/#about" onClick={handleLinkClick} className="capitalize">O Nama</a>
-        <a href="https://simplebooklet.com/winefine#page=1" onClick={handleLinkClick} className="capitalize">Meni</a>
+        <a href="/menu" onClick={handleLinkClick} className="capitalize">Meni</a>
         <a href="/#contact" onClick={handleLinkClick} className="capitalize">Kontakt</a>
         
       </div>

@@ -21,7 +21,7 @@ export default function About() {
           
           <button className="text-white text-sm md:text-md  hover:text-black bg-transparent border border-white hover:bg-white/80 mt-6 font-serif px-6 py-3 transition-all duration-300">
             <a
-              href="https://simplebooklet.com/winefine#page=1"
+              href="/menu"
               className="text-white font-serif"
               aria-label="Meni - Wine & Fine"
             >
