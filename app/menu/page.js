@@ -21,10 +21,10 @@ export default function MenuPage() {
       <header className="text-center sticky top-0 bg-black py-8 border-b border-gray-700 z-20">
         <h1 className="text-4xl font-serif tracking-wide">Our Menu</h1>
         
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-6 bg-black">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-6 bg-black ">
           <select
             aria-label="Filter menu by category"
-            className="w-full sm:w-60 bg-black border border-gray-600 rounded-md px-4 py-2 text-gray-300 focus:outline-none focus:ring-2 focus:ring-[#f5ac26]"
+            className="w-full sm:w-60 bg-black border-b border-gray-600  px-4 py-2 text-gray-300 focus:outline-none focus:ring-1 focus:ring-[#f5ac26]"
             value={filter}
             onChange={(e) => {
               setFilter(e.target.value);
