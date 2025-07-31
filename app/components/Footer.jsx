@@ -22,7 +22,7 @@ export default function Footer() {
           <h3 className="text-lg font-semibold text-white">Brzi linkovi</h3>
           <Link href="/#home" className="hover:text-white transition">Početna</Link>
           <Link href="/#about" className="hover:text-white transition">O Nama</Link>
-          <Link href="https://simplebooklet.com/winefine#page=1" target="_blank" className="hover:text-white transition">Meni</Link>
+          <Link href="/menu" target="_blank" className="hover:text-white transition">Meni</Link>
           <Link href="/#contact" className="hover:text-white transition">Kontakt</Link>
         </div>
 
